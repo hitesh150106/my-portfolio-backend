@@ -11,7 +11,6 @@ app.use(cors({
   credentials: true
 }));
 
-
 app.use(express.json());
 
 app.get("/api/test", (req, res) => {
